@@ -1,4 +1,4 @@
-Charts As screen:
+ChartsControls As screen:
 
     CompositeColumnChart1 As group:
         Height: =5

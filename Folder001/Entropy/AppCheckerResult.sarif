@@ -14,6 +14,86 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Test_7F478737223C4B69.'0ff3e9a6-554b-4153-b24f-a043eade9311'.'af7bf29c-6023-4034-b66b-9d73a9805bc3'.Step1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Test_7F478737223C4B69.'0ff3e9a6-554b-4153-b24f-a043eade9311'.'af7bf29c-6023-4034-b66b-9d73a9805bc3'.Step1",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 7,
+                  "snippet": {
+                    "text": "Image1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Step1",
+                "module": "Test_7F478737223C4B69",
+                "type": "Test_7F478737223C4B69.'0ff3e9a6-554b-4153-b24f-a043eade9311'.'af7bf29c-6023-4034-b66b-9d73a9805bc3'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Image1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Test_7F478737223C4B69.'0ff3e9a6-554b-4153-b24f-a043eade9311'.'af7bf29c-6023-4034-b66b-9d73a9805bc3'.Step1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Test_7F478737223C4B69.'0ff3e9a6-554b-4153-b24f-a043eade9311'.'af7bf29c-6023-4034-b66b-9d73a9805bc3'.Step1",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Select"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Step1",
+                "module": "Test_7F478737223C4B69",
+                "type": "Test_7F478737223C4B69.'0ff3e9a6-554b-4153-b24f-a043eade9311'.'af7bf29c-6023-4034-b66b-9d73a9805bc3'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Select"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "ClassicControls.Dropdown1.AccessibleLabel"
                 }
               ],
@@ -37,7 +117,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -67,7 +147,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -97,7 +177,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -127,26 +207,56 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Charts.ColumnChart1.AccessibleLabel"
+                  "fullyQualifiedName": "LayoutControls.Gallery2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Charts.ColumnChart1.AccessibleLabel",
+                  "fullyQualifiedName": "LayoutControls.Gallery2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "LayoutControls",
+                "type": "LayoutControls.Gallery2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LayoutControls.Gallery2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LayoutControls.Gallery2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Charts",
-                "type": "Charts.ColumnChart1"
+                "module": "LayoutControls",
+                "type": "LayoutControls.Gallery2"
               }
             }
           ],
@@ -157,7 +267,97 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LayoutControls.Gallery1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LayoutControls.Gallery1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "LayoutControls",
+                "type": "LayoutControls.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LayoutControls.Gallery1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LayoutControls.Gallery1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "LayoutControls",
+                "type": "LayoutControls.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ChartsControls.ColumnChart1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ChartsControls.ColumnChart1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ChartsControls",
+                "type": "ChartsControls.ColumnChart1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -187,7 +387,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -217,7 +417,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -247,7 +447,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -277,7 +477,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -307,7 +507,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -337,7 +537,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -367,7 +567,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -397,7 +597,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -427,67 +627,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111.ImageContainer11111.Image11111.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111.ImageContainer11111.Image11111.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FirstScreen",
-                "type": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111.ImageContainer11111.Image11111"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111.ImageContainer11111.Image11111.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111.ImageContainer11111.Image11111.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "FirstScreen",
-                "type": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111.ImageContainer11111.Image11111"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -517,7 +657,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -547,7 +687,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -577,7 +717,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -607,7 +747,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -637,7 +777,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -667,7 +807,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -697,7 +837,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -727,7 +867,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -757,7 +897,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -786,7 +926,7 @@
             "level": "Low"
           },
           "ruleId": "acc-AlternativeInputNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -816,7 +956,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -846,7 +986,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -876,7 +1016,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -906,7 +1046,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -936,7 +1076,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -966,7 +1106,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -996,7 +1136,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1026,7 +1166,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-CaptionsNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1056,7 +1196,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1086,7 +1226,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1116,26 +1256,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111.LayoutMinWidth"
+                  "fullyQualifiedName": "LayoutControls.Gallery3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111.LayoutMinWidth",
+                  "fullyQualifiedName": "LayoutControls.Gallery3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "LayoutMinWidth",
-                "module": "FirstScreen",
-                "type": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111"
+                "member": "AccessibleLabel",
+                "module": "LayoutControls",
+                "type": "LayoutControls.Gallery3"
               }
             }
           ],
@@ -1145,27 +1285,27 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111.ImageContainer11111.LayoutMinWidth"
+                  "fullyQualifiedName": "LayoutControls.Gallery3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111.ImageContainer11111.LayoutMinWidth",
+                  "fullyQualifiedName": "LayoutControls.Gallery3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "LayoutMinWidth",
-                "module": "FirstScreen",
-                "type": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111.ImageContainer11111"
+                "member": "TabIndex",
+                "module": "LayoutControls",
+                "type": "LayoutControls.Gallery3"
               }
             }
           ],
@@ -1175,27 +1315,27 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111.TitleContainer11111.LayoutMinWidth"
+                  "fullyQualifiedName": "LayoutControls.Table1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111.TitleContainer11111.LayoutMinWidth",
+                  "fullyQualifiedName": "LayoutControls.Table1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "LayoutMinWidth",
-                "module": "FirstScreen",
-                "type": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111.TitleContainer11111"
+                "member": "AccessibleLabel",
+                "module": "LayoutControls",
+                "type": "LayoutControls.Table1"
               }
             }
           ],
@@ -1205,8 +1345,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
         }
       ],
       "tool": {
@@ -1214,6 +1354,37 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {
@@ -1280,23 +1451,6 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "Without captions, people with disabilities may not get any of the information in a video or audio segment."
-              }
-            },
-            {
-              "id": "app-InefficientDelayLoading",
-              "messageStrings": {
-                "issue": {
-                  "text": "Inefficient delay loading"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Use variables, collections, and navigation context to share state across screens instead."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "Controls that reference controls on other screens can slow down app loading and navigation. Doing this may force the app to load the other screens immediately, rather than waiting until the user navigates to that screen."
               }
             }
           ],

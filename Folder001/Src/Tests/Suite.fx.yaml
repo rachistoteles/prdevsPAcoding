@@ -8,6 +8,6 @@
 
         Step1 As TestStep:
             Description: ="Select 'Image1'"
-            Screen: =WelcomeScreen
+            Screen: =
             Value: =Select(Image1)
 

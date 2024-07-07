@@ -373,6 +373,48 @@
     "OverridableProperties": {},
     "Version": "2.1.0"
   },
+  "form": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/form",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "form",
+    "OverridableProperties": {},
+    "Version": "2.4.2"
+  },
+  "gallery": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/gallery",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "gallery",
+    "OverridableProperties": {},
+    "Version": "2.15.0"
+  },
+  "galleryTemplate": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/galleryTemplate",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "galleryTemplate",
+    "OverridableProperties": {},
+    "Version": "1.0"
+  },
   "group": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -444,6 +486,20 @@
     "Name": "htmlViewer",
     "OverridableProperties": {},
     "Version": "2.1.0"
+  },
+  "icon": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/icon",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "icon",
+    "OverridableProperties": {},
+    "Version": "2.5.0"
   },
   "image": {
     "CustomGroupControlTemplateName": "",
@@ -1029,6 +1085,16 @@
     "OverridableProperties": {},
     "Version": "2.3.0"
   },
+  "pcfDataField": {
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/pcfDataField",
+    "IsComponentTemplate": false,
+    "IsPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "pcfDataField",
+    "Version": "1.5.0"
+  },
   "pdfViewer": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -1070,6 +1136,20 @@
     "Name": "pieChart",
     "OverridableProperties": {},
     "Version": "2.2.0"
+  },
+  "PowerAppsOneGridTemplate_dataField": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/PowerAppsOneGridTemplate_dataField",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "PowerAppsOneGridTemplate_dataField",
+    "OverridableProperties": {},
+    "Version": "1.5.0"
   },
   "powerbi": {
     "CustomGroupControlTemplateName": "",
@@ -1282,6 +1362,21 @@
     "OverridableProperties": {},
     "TemplateDisplayName": "Tab list",
     "Version": "2.2.26"
+  },
+  "Table": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/PowerAppsOneGrid",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "PowerAppsOneGrid",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Table",
+    "Version": "1.0.200"
   },
   "TestCase": {
     "CustomGroupControlTemplateName": "",

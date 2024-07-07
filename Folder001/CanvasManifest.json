@@ -100,7 +100,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 0,
+    "BindingErrorCount": 2,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -113,10 +113,10 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "a96a69f6-70a8-4171-9e78-c5dc326bb85f",
-    "Id": "db58eda2-eee3-4cd4-8536-b518a84dac95",
+    "Id": "0a6a615a-94e0-4bb0-97e0-1c8af6a33df6",
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
-    "Name": "PowerAppsTutorial01",
+    "Name": "PowerAppsTutorial01.msapp",
     "OriginatingVersion": "1.342",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
@@ -133,13 +133,12 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "FirstScreen",
-    "WelcomeScreen",
     "InputControls",
     "DisplayControls",
     "ClassicControls",
     "MediaControls",
-    "Shapes",
-    "Charts"
+    "ShapesControls",
+    "ChartsControls",
+    "LayoutControls"
   ]
 }

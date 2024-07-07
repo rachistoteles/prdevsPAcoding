@@ -1,4 +1,4 @@
-Shapes As screen:
+ShapesControls As screen:
 
     Rectangle1 As rectangle:
         X: =40
