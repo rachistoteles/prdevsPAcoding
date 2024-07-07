@@ -72,3 +72,47 @@ ClassicControls As screen:
         Y: =140
         ZIndex: =13
 
+         As Address input:
+     As appinfo:
+     As attachments:
+     As Avatar:
+     As Badge:
+     As button:
+     As Button:
+     As Checkbox:
+     As combobox:
+     As Combobox:
+     As Date picker:
+     As Dropdown:
+     As form:
+     As gallery:
+     As galleryTemplate:
+     As groupContainer:
+     As Header:
+     As hostControl:
+     As htmlViewer:
+     As image:
+     As Information button:
+     As inkControl:
+     As label:
+     As Link:
+     As listbox:
+     As Number input:
+     As Progress Bar:
+     As radio:
+     As Radio:
+     As rating:
+     As Rating:
+     As richTextEditor:
+     As screen:
+     As slider:
+     As Slider:
+     As Spinner:
+     As Tab list:
+     As text:
+     As Text:
+     As Text input:
+     As timer:
+     As Toggle:
+     As toggleSwitch:
+     As typedDataCard:
