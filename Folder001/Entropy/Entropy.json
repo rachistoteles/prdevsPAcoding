@@ -131,7 +131,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/07/2024 00:53:25",
+  "HeaderLastSavedDateTimeUTC": "07/07/2024 00:55:35",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "86f49e6d-d3ac-43b4-b669-edd28eda90c7": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/dceb389e5de64d838a416fcc233f4c88\"",
@@ -140,6 +140,7 @@
   "LocalDatabaseReferencesAsEmpty": true,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
+  "OldLogoFileName": "fzgnhxix.jpg",
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
