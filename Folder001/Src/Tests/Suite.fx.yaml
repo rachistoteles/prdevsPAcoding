@@ -1,0 +1,13 @@
+"'0ff3e9a6-554b-4153-b24f-a043eade9311' As TestSuite":
+    Description: =""
+    DisplayName: ="Suite"
+
+    "'af7bf29c-6023-4034-b66b-9d73a9805bc3' As TestCase":
+        Description: =""
+        DisplayName: ="Case"
+
+        Step1 As TestStep:
+            Description: ="Select 'Image1'"
+            Screen: =WelcomeScreen
+            Value: =Select('Image1')
+

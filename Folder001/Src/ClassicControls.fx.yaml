@@ -1,15 +1,18 @@
 ClassicControls As screen:
 
     Label1 As label:
-        Text: ="Text"
-        X: =75
-        Y: =45
+        Text: =spaceVariable
+        X: =1335
+        Y: =906
         ZIndex: =1
 
     Button1 As button:
+        OnSelect: |-
+            =Set(spaceVariable, "     As label");
+            Copy(spaceVariable);
         Text: ="Button"
-        X: =275
-        Y: =55
+        X: =655
+        Y: =946
         ZIndex: =2
 
     Gallery1 As gallery.galleryVertical:
@@ -501,7 +504,7 @@ ClassicControls As screen:
                 ZIndex: =4
 
     Slider2 As slider:
-        X: =1198
+        X: =1250
         Y: =55
         ZIndex: =5
 
