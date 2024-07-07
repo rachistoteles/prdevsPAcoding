@@ -115,7 +115,6 @@
     "FileID": "a96a69f6-70a8-4171-9e78-c5dc326bb85f",
     "Id": "db58eda2-eee3-4cd4-8536-b518a84dac95",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "",
     "ManualOfflineProfileId": "",
     "Name": "PowerAppsTutorial01",
     "OriginatingVersion": "1.342",
@@ -138,6 +137,9 @@
     "WelcomeScreen",
     "InputControls",
     "DisplayControls",
-    "ClassicControls"
+    "ClassicControls",
+    "MediaControls",
+    "Shapes",
+    "Charts"
   ]
 }

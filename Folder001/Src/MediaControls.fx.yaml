@@ -1,0 +1,126 @@
+MediaControls As screen:
+
+    Image2 As image:
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    Camera1 As camera:
+        Camera: =0
+        X: =60
+        Y: =60
+        ZIndex: =2
+
+    "BarcodeReader1 As 'Barcode Reader'":
+        BorderFillColor: =RGBA(47, 81, 151, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledContentColor: =RGBA(166, 166, 166, 1)
+        DisabledFillColor: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.Edit
+        FillColor: =RGBA(56, 96, 178, 1)
+        Height: =70
+        HoverBorderColor: =RGBA(88, 115, 171, 1)
+        HoverContentColor: =RGBA(255, 255, 255, 1)
+        HoverFillColor: =RGBA(47, 81, 151, 1)
+        OnCancel: =false
+        OnScan: =false
+        PressedBorderColor: =RGBA(56, 96, 178, 1)
+        PressedContentColor: =RGBA(56, 96, 178, 1)
+        PressedFillColor: =RGBA(255, 255, 255, 1)
+        TextColor: =RGBA(255, 255, 255, 1)
+        Width: =280
+        X: =80
+        Y: =80
+        ZIndex: =3
+
+    AddMediaWithImage1 As group:
+        Height: =5
+        Width: =5
+        X: =100
+        Y: =100
+        ZIndex: =4
+
+        UploadedImage1 As image:
+            Height: =AddMediaButton1.Height
+            Image: =If(IsBlank(AddMediaButton1.Media), SampleImage, AddMediaButton1.Media)
+            ImagePosition: =ImagePosition.Fill
+            Width: =AddMediaButton1.Width
+            X: =AddMediaButton1.X
+            Y: =AddMediaButton1.Y
+            ZIndex: =5
+
+        AddMediaButton1 As addMedia:
+            Size: =25
+            X: =100
+            Y: =100
+            ZIndex: =6
+
+    StreamVideo1 As Stream:
+        Height: =260
+        Width: =400
+        X: =120
+        Y: =120
+        ZIndex: =7
+
+    Video1 As videoPlayback:
+        X: =140
+        Y: =140
+        ZIndex: =8
+
+    Audio1 As audioPlayback:
+        X: =160
+        Y: =160
+        ZIndex: =9
+
+    Microphone1 As microphone:
+        X: =180
+        Y: =180
+        ZIndex: =10
+
+    "ViewIn3D1 As 'View in 3D (preview)'.pcfdataset":
+        BackgroundFill: =RGBA(230, 235, 240, 1)
+        DisplayMode: =DisplayMode.Edit
+        Height: =400
+        OnModelLoad: =false
+        Width: =400
+        X: =200
+        Y: =200
+        ZIndex: =11
+
+    Import1 As import:
+        Text: ="Import Data"
+        X: =220
+        Y: =220
+        ZIndex: =12
+
+    Export1 As export:
+        Text: ="Export Data"
+        X: =240
+        Y: =240
+        ZIndex: =13
+
+    PdfViewer1 As pdfViewer:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(0, 0, 0, 0.5)
+        X: =260
+        Y: =260
+        ZIndex: =14
+
+    "Map1 As 'Map (preview)'.pcfdataset":
+        BorderColor: =RGBA(0, 18, 107, 1)
+        DisplayMode: =DisplayMode.Edit
+        Height: =400
+        OnItemsChange: =false
+        OnLoad: =false
+        OnMapClick: =false
+        OnRouteDirectionChange: =false
+        OnShapeCreated: =false
+        OnShapeDeleted: =false
+        OnShapeEdited: =false
+        OnShapeSelected: =false
+        PinColor: =RGBA(29, 114, 169, 1)
+        Width: =400
+        X: =280
+        Y: =280
+        ZIndex: =15
+

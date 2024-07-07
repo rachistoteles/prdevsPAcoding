@@ -9,5 +9,5 @@
         Step1 As TestStep:
             Description: ="Select 'Image1'"
             Screen: =WelcomeScreen
-            Value: =Select('Image1')
+            Value: =Select(Image1)
 
