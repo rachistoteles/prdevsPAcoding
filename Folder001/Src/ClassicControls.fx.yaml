@@ -72,3 +72,8 @@ ClassicControls As screen:
         Y: =140
         ZIndex: =13
 
+    Checkbox32321 As checkbox:
+            Text: ="Option44444"
+            X: =140
+            Y: =140
+            ZIndex: =13
