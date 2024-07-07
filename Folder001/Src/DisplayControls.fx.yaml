@@ -1,0 +1,70 @@
+DisplayControls As screen:
+
+    TextCanvas1 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Width: =96
+        X: =95
+        Y: =45
+        ZIndex: =1
+
+    Avatar1 As Avatar:
+        DisplayMode: =DisplayMode.Edit
+        Height: =64
+        Image: =User().Image
+        Name: =User().FullName
+        Width: =64
+        X: =205
+        Y: =55
+        ZIndex: =2
+
+    BadgeCanvas1 As Badge:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Width: =32
+        X: =352
+        Y: =55
+        ZIndex: =3
+
+    "Progress1 As 'Progress Bar'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =45
+        Width: =450
+        X: =450
+        Y: =55
+        ZIndex: =4
+
+    "InfoButtonCanvas1 As 'Information button'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Width: =32
+        X: =976
+        Y: =55
+        ZIndex: =5
+
+    Spinner1 As Spinner:
+        DisplayMode: =DisplayMode.Edit
+        Height: =200
+        Width: =200
+        X: =1107
+        Y: =55
+        ZIndex: =6
+
+    LinkCanvas1 As Link:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Width: =320
+        X: =1408
+        Y: =61
+        ZIndex: =7
+
+    Timer1 As timer:
+        X: =75
+        Y: =285
+        ZIndex: =8
+
+    HtmlText1 As htmlViewer:
+        X: =365
+        Y: =310
+        ZIndex: =9
+
