@@ -3,9 +3,10 @@ DisplayControls As screen:
     TextCanvas1 As Text:
         DisplayMode: =DisplayMode.Edit
         Height: =32
+        Text: =BensFormattingFunction("12")
         Width: =96
-        X: =95
-        Y: =45
+        X: =417
+        Y: =507
         ZIndex: =1
 
     Avatar1 As Avatar:

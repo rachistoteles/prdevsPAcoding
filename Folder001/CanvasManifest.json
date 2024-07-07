@@ -118,7 +118,7 @@
     "ManualOfflineProfileId": "",
     "Name": "PowerAppsTutorial01",
     "OriginatingVersion": "1.342",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 2,
     "ShowStatusBar": false
   },
   "PublishInfo": {
