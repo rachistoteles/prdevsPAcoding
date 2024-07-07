@@ -517,3 +517,8 @@ ClassicControls As screen:
         Y: =450
         ZIndex: =7
 
+    Toggle2121 As toggleSwitch:
+        X: =1615
+        Y: =550
+        ZIndex: =7    
+
