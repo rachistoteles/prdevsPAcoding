@@ -2,6 +2,7 @@ App As appinfo:
     BackEnabled: =true
     Formulas: |
         =BensFormattingFunction(Money:Number): Text = Text(Money, "$ #,##0.00");
+        BensFormattingFunction2(Money:Number): Text = Text(Money, "! #,##0.00");
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
