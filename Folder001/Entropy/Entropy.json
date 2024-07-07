@@ -127,14 +127,15 @@
     "TitleContainer51": 36,
     "TitleContainer61": 42,
     "Toggle1": 66,
+    "Toggle2": 129,
     "WelcomeScreen": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/07/2024 00:55:35",
+  "HeaderLastSavedDateTimeUTC": "07/07/2024 01:06:39",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "86f49e6d-d3ac-43b4-b669-edd28eda90c7": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/dceb389e5de64d838a416fcc233f4c88\"",
+    "4f9a6026-7aa6-425e-8034-35d47c760902": "\"/providers/microsoft.powerapps/apis/shared_microsoftspatialservices/connections/dceb389e5de64d838a416fcc233f4c88\"",
     "c8306b15-c6ce-440a-885e-42a0a92ef8c9": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/dcde50071b8d48348508a3ed1b8f32a6\""
   },
   "LocalDatabaseReferencesAsEmpty": true,
@@ -176,23 +177,24 @@
   },
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "attachments": 16,
-    "button": 10,
-    "combobox": 15,
-    "form": 13,
-    "gallery": 8,
+    "attachments": 17,
+    "button": 11,
+    "combobox": 16,
+    "form": 14,
+    "gallery": 9,
     "groupContainer": 0,
     "htmlViewer": 7,
     "image": 1,
     "inkControl": 2,
-    "label": 9,
+    "label": 10,
     "listbox": 5,
-    "radio": 12,
+    "radio": 13,
     "rating": 3,
     "richTextEditor": 4,
-    "slider": 11,
-    "text": 14,
-    "timer": 6
+    "slider": 12,
+    "text": 15,
+    "timer": 6,
+    "toggleSwitch": 8
   },
   "OverridablePropertiesEntry": {
     "AddressInput1": {},
@@ -320,6 +322,7 @@
     "TitleContainer51": {},
     "TitleContainer61": {},
     "Toggle1": {},
+    "Toggle2": {},
     "WelcomeScreen": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
@@ -969,6 +972,7 @@
     "TitleContainer51": 41,
     "TitleContainer61": 47,
     "Toggle1": 59,
+    "Toggle2": 0,
     "WelcomeScreen": 0
   },
   "ResourcesJsonIndices": {
@@ -977,7 +981,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.5571959,
+    "AnalysisLoadTime": 0.611532,
     "ControlCount": {
       "AddressInput": 1,
       "attachments": 1,
@@ -1018,9 +1022,10 @@
       "slider": 1,
       "text": 4,
       "timer": 1,
+      "toggleSwitch": 1,
       "typedDataCard": 7
     },
-    "DeserializationLoadTime": 1.622789
+    "DeserializationLoadTime": 3.498961
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

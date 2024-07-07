@@ -1033,6 +1033,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "ClassicControls.Toggle2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ClassicControls.Toggle2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ClassicControls",
+                "type": "ClassicControls.Toggle2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "FirstScreen.ScreenContainer1.ContentContainer111.Container11111.LayoutMinWidth"
                 }
               ],
